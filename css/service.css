@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+.service .inner{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.service_txt{
+    padding: 0 3%;
+}
+
+.service_txt p{
+    letter-spacing: .2em;
+    line-height: 1.8em;
+    padding-bottom: 100px;
+}
+
+.service_txt p span{
+    border-bottom: 2px solid #e4a93b;
+}
+
+.service_txt p strong{
+    color: #e4a93b;
+}
+
+.service_wrap{
+    padding: 0 16px;
+}
+
+.service_wrap p{
+    font-size: 20px;
+    letter-spacing: .4em;
+    line-height: 1.4em;
+    padding: 0 16px 0px;
+}
+
+.service_item{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    border-color: #fff;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, .1);
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.service_item_img{
+    width: 25%;
+    padding-left: 16px;
+}
+
+.service_item_img img{
+    width: 100%;
+    height: auto;
+}
+
+.service_item {
+    width: 100%;
+    margin-left: 30px;
+    font-size: 20px;
+    line-height: 1.8em;
+    letter-spacing: 0;
+    padding-bottom: 0;
+}
+
+.service_img{
+    width: 500px;
+    height: 320px;
+    background-image: url(../img/service.png);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+@media screen and (max-width:480px) {
+    .service_img img{
+        width: 70%;
+    }
+
+    .inner{
+        width: 90%;
+    }
+
+    .inner .section_ttl small{
+        font-size: 38px;
+        padding: 20px 0 0;
+    }
+
+    .service_txt p{
+        font-size: 18px;
+        letter-spacing: .2em;
+        line-height: 1.8em;
+        padding-bottom: 60px;
+        font-size: 18px;
+    }
+
+    .service_wrap p{
+        font-size: 18px;
+        letter-spacing: .2em;
+        line-height: 1.4em;
+        padding: 0 0 40px;
+    }
+
+    
+    .service_item{
+        width: 100%;
+        margin: 0 0 10%;
+        height: auto;
+        display: block;
+    }
+    
+    .service_wrap .service_item p{
+        font-size: 12px;
+        line-height: 1.5;
+        padding-left: 10px;
+    }
+
+    .service_inner_txt{
+        left: 46%;
+    }
+
+    .service_img{
+        width: 100%;
+        height: 150px;
+        background: none;
+    }
+
+    .service_img img{
+        margin-left: 24px;
+        padding: 8px 0;
+        width: 100%;
+    }
+
+    .service_wrap .service_item p{
+        width: 88%;
+        padding: 0 10px 10px;
+    }
+}
